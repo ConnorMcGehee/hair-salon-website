@@ -1,0 +1,60 @@
+#index-link {
+    background: #000000c6;
+}
+
+#hero-container {
+    position: relative;
+}
+
+#hero-text-container {
+    left: 0;
+    margin: 0;
+    padding: 0 2%;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    width: 96%;
+}
+
+#hero-image {
+    width: 100%;
+    min-height: 24rem;
+    max-height: 30rem;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+#hero-heading {
+    display: inline-block;
+    background: white;
+    color: black;
+    font-weight: bolder;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 90%;
+}
+
+.hero-text {
+    display: inline-block;
+    background: #252525;
+    color: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 90%;
+}
+
+#read-more {
+    display: inline-block;
+    background: #36aca6;
+    color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+#read-more:hover {
+    background: #20c3bc;
+}
