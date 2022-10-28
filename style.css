@@ -29,7 +29,7 @@ body {
 }
 
 .nav-link {
-    background: #36aca6c6;
+    background: #36aca6f9;
     color: white;
     border: 0.08rem white solid;
     border-top: none;
@@ -46,22 +46,10 @@ body {
     border-top: 0.08rem white solid;
 }
 
-#index-link:hover {
-    background: #000000c6;
-}
-
-#about-link:hover {
-    background: #000000c6;
-}
-
-#gallery-link:hover {
-    background: #000000c6;
-}
-
-#blog-link:hover {
-    background: #000000c6;
-}
-
+#index-link:hover,
+#about-link:hover,
+#gallery-link:hover,
+#blog-link:hover,
 #contact-link:hover {
     background: #000000c6;
 }
@@ -75,4 +63,67 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: block;
+}
+
+#footer {
+    background: #252525;
+    color: white;
+    padding: 2rem;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#socials {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.fa-brands {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.fa-brands:hover {
+    opacity: 0.6;
+}
+
+@media (min-width: 48em) {
+
+    #menu-button {
+        display: none;
+    }
+
+    #nav-list {
+        display: flex;
+        gap: 4rem;
+    }
+
+    #nav {
+        display: flex;
+        justify-content: center;
+        position: static;
+        transform: none;
+        left: 0;
+        width: auto;
+    }
+
+    .nav-link {
+        background: none;
+        color: #252525;
+        border: none;
+        margin: 0;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+
+    #index-link:hover,
+    #about-link:hover,
+    #gallery-link:hover,
+    #blog-link:hover,
+    #contact-link:hover {
+        background: none;
+        color: #36aca6;
+    }
 }
