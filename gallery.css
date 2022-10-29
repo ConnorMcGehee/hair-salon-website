@@ -13,6 +13,7 @@
     object-fit: cover;
     object-position: left;
     border: 1px black solid;
+    filter: grayscale(100%);
 }
 
 @media (min-width: 48em) {
