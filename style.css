@@ -3,6 +3,23 @@ body {
     margin: 0;
 }
 
+.button {
+    display: inline-block;
+    background: black;
+    color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    border: 2px black solid;
+    width: fit-content;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+}
 #logo {
     display: block;
     width: 300px;
