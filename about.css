@@ -1,16 +1,4 @@
-#about-header {
-    background: black;
-    color: #ffffff;
-    font-size: 2.25rem;
-    width: 95vw;
-    max-width: 38.75rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 
 #photographer {
     display: block;
